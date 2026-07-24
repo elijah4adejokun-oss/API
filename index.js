@@ -1,9 +1,9 @@
-// const express = require('express');
-// const app = express();
-// const PORT = 3000;
+const express = require('express');
+const app = express();
+const PORT = 3000;
 
 
-// app.use(express.json());
+app.use(express.json());
 
-// let student = [];
-// let nameid = 1;
+let student = [];
+let nameid = 1;
